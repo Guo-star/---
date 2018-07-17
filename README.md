@@ -1,5 +1,5 @@
 # selectCity
-微信小程序省市区三级联动
+微信小程序省市区三级联动 使用了腾讯地图api
 
 在.json引入组件
 <pre>
@@ -13,11 +13,7 @@
 </pre>
 
 在.wxml中使用 upPcValue传入初始值 bind:cleckEvent接受选择值
-<pre>
-  <code>
-    <provinceinp id="provinceinp" upPcValue="{{pcValue}}" bind:cleckEvent="_cleckEvent"></provinceinp>
-  </code>
-</pre>
+<provinceinp id="provinceinp" upPcValue="{{pcValue}}" bind:cleckEvent="_cleckEvent"></provinceinp>
 
 在.js中 接受组件传入值
 <pre>
