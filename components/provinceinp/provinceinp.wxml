@@ -1,0 +1,8 @@
+<view style='width:100%;height:100%'>
+  <picker mode="multiSelector" bindchange="pkIndex" bindcolumnchange="pkCol" value="{{pcIndex}}" range="{{p_c}}">
+    <view class="pickerinp">
+      <text wx:if="{{pcValue!==''}}">{{ pcValue }}</text>
+      <view class='blackfont' wx:else>请选择</view>
+    </view>
+  </picker>
+</view>

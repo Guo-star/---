@@ -1,0 +1,13 @@
+.pickerinp{
+  width: 100%;
+  height: 98rpx;
+}
+
+.blackfont{
+  color: #aaa;
+}
+
+.blackfont image{
+  width: 24rpx;
+  height: 24rpx;
+}
