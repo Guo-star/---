@@ -13,7 +13,7 @@
 </pre>
 
 在.wxml中使用 upPcValue传入初始值 bind:cleckEvent接受选择值
-<provinceinp id="provinceinp" upPcValue="{{pcValue}}" bind:cleckEvent="_cleckEvent"></provinceinp>
+“<provinceinp id="provinceinp" upPcValue="{{pcValue}}" bind:cleckEvent="_cleckEvent"></provinceinp>”
 
 在.js中 接受组件传入值
 <pre>
